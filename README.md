@@ -15,7 +15,7 @@ $ nm -g build/dynamic_lookup | grep AbstractPlugin.preface | grep T
 
 and `libModulePlugin` module lists `preface` symbol as undefined:
 ```shell
-$ nm -g build/libModulePlugin.so | grep AbstractPlugin.preface | grep T
+$ nm -g build/libModulePlugin.so | grep AbstractPlugin.preface | grep U
                  U __ZN14AbstractPlugin7prefaceEv
 ```
 
